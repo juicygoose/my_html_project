@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
 
     achievement {
@@ -938,3 +939,4 @@ erDiagram
     users ||--o{ team_members : "team_members(user_id) -> users(id)"
     utm ||--o{ freelance : "freelance(utm_id) -> utm(id)"
     work_order ||--o{ project_deliverable : "project_deliverable(work_order_id) -> work_order(id)"
+```
